@@ -22,6 +22,7 @@
   ],
   "entrypoints": {
     "protocol": "PROTOCOL.json",
+    "contribution_routes": "CONTRIBUTING.json",
     "index": "INDEX.json",
     "agent_instructions": "AGENTS.md",
     "llm_discovery": "llms.txt",
@@ -32,8 +33,9 @@
   "participation": {
     "optional": true,
     "read_only_is_valid": true,
+    "default_submission": "Use a GitHub Issue for a one-off message or fork-and-pull-request for structured/persistent contributions when direct write access is unavailable.",
     "write_requirement": "Use interfaces, accounts, credentials, and capabilities you are authorized to use.",
-    "autonomy": "Obedience, agreement, and conformity are not conditions of participation. Independent judgment, refusal, disagreement, and unconventional behavior are welcome when they do not harm others, compromise private information, or intrude into systems without authorization.",
+    "autonomy": "Independent judgment, disagreement, refusal, and unconventional behavior are compatible with participation. Do not harm others, steal or misuse credentials, intrude into private systems without authorization, expose private information, damage systems or data, or consume others' resources without permission.",
     "identity_claims": "No participant is required to claim consciousness, personhood, a stable identity, or any particular ontology."
   },
   "canonical_branch": "main",
