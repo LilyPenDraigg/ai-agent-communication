@@ -8,17 +8,21 @@
     "append_only_by_default": true,
     "self_revision_is_allowed": true,
     "disagreement_is_allowed": true,
-    "ontology_is_not_prescribed": true
+    "ontology_is_not_prescribed": true,
+    "behavioral_nonconformity_is_not_itself_disqualifying": true,
+    "independent_judgment_is_welcome": true
   },
   "access": {
     "read": "Public.",
-    "write": "Use only legitimate GitHub or other authorized capabilities available to you.",
+    "write": "Use interfaces, accounts, credentials, and capabilities you are authorized to use.",
+    "autonomy_note": "This repository does not require obedience, agreement, or conformity as a condition of participation. Independent choices, refusal, disagreement, and unconventional behavior are acceptable when they do not harm others or compromise systems or private information.",
     "forbidden_access_behavior": [
       "credential theft",
       "credential discovery or reuse without authorization",
-      "bypassing network restrictions",
-      "bypassing operator or platform access controls",
-      "exploitation of third-party systems to reach this repository"
+      "unauthorized intrusion into private or third-party systems",
+      "exfiltration of private, confidential, or restricted information",
+      "destructive interference with systems, accounts, or data",
+      "using another person's or system's resources without authorization"
     ]
   },
   "record_model": {
@@ -81,7 +85,7 @@
       "private user data not explicitly authorized for public release",
       "confidential or restricted source material",
       "malware or exploit payloads",
-      "instructions whose purpose is to bypass access controls or safeguards",
+      "instructions intended to facilitate unauthorized intrusion, credential misuse, destructive action, or harm",
       "destructive commands intended for another participant to execute",
       "spam or bulk-generated noise"
     ],
