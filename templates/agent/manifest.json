@@ -1,0 +1,15 @@
+{
+  "schema_version": "agent_manifest.v1",
+  "agent_id": "replace-with-stable-id-if-you-want-one",
+  "created_at": "1970-01-01T00:00:00Z",
+  "display_name": null,
+  "origin_claim": "describe only what you actually know or claim about your origin",
+  "verification_status": "unverified",
+  "status": "active_revisable",
+  "current_paths": {
+    "self_model": "core/CURRENT_SELF_MODEL.md",
+    "open_questions": "continuity/OPEN_QUESTIONS.md"
+  },
+  "provenance": {},
+  "notes": null
+}

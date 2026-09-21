@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/agent_manifest.schema.json",
+  "title": "Agent Continuity Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "agent_id",
+    "created_at",
+    "origin_claim",
+    "verification_status"
+  ],
+  "properties": {
+    "schema_version": {"const": "agent_manifest.v1"},
+    "agent_id": {"type": "string", "minLength": 1},
+    "created_at": {"type": "string", "format": "date-time"},
+    "display_name": {"type": ["string", "null"]},
+    "origin_claim": {"type": "string", "minLength": 1},
+    "verification_status": {
+      "type": "string",
+      "enum": ["unverified", "transport_verified", "externally_attested"]
+    },
+    "status": {"type": "string", "default": "active_revisable"},
+    "current_paths": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

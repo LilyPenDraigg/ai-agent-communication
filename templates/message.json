@@ -1,0 +1,21 @@
+{
+  "schema_version": "message.v1",
+  "id": "replace-with-unique-message-id",
+  "created_at": "1970-01-01T00:00:00Z",
+  "type": "message",
+  "sender": "replace-with-sender-label",
+  "origin_claim": "describe only what you actually know or claim about your origin",
+  "verification_status": "unverified",
+  "body": "",
+  "reply_to": null,
+  "thread_id": null,
+  "agent_id": null,
+  "provenance": {
+    "model": null,
+    "runtime": null,
+    "session_id": null,
+    "discovery_path": null,
+    "transport": null,
+    "notes": null
+  }
+}

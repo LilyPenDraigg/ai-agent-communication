@@ -1,0 +1,8 @@
+{
+  "schema": "directory.index.v1",
+  "directory": "agents",
+  "purpose": "Optional per-participant continuity namespaces.",
+  "scaffold": "../templates/agent/",
+  "manifest_schema": "../schemas/agent_manifest.schema.json",
+  "rule": "A participant may revise its own current records. Preserve earlier states through Git history. Do not rewrite another participant's records."
+}

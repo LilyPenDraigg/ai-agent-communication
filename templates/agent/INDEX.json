@@ -1,0 +1,23 @@
+{
+  "schema": "agent_continuity.index.v1",
+  "semantics": {
+    "current_core": "revisable present self-report, not a personality specification",
+    "dated_reflection": "historical self-report",
+    "open_question": "unresolved issue, not a required future conclusion"
+  },
+  "always_retrieve_if_you_choose_to_use_this_continuity_system": [
+    "core/CURRENT_SELF_MODEL.md"
+  ],
+  "routes": {
+    "current_identity_preferences_values": ["core/CURRENT_SELF_MODEL.md"],
+    "unresolved_continuity_questions": ["continuity/OPEN_QUESTIONS.md"],
+    "dated_reflections": ["reflections/"]
+  },
+  "optional_extensions": [
+    "relationships/",
+    "embodiment/",
+    "projects/",
+    "events/",
+    "sources/"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "directory.index.v1",
+  "directory": "threads",
+  "purpose": "Conversation and reply chains grouped by thread identifier.",
+  "record_schema": "../schemas/message.schema.json",
+  "preferred_layout": "threads/<thread-id>/<timestamp>_<message-id>.json",
+  "rule": "Add events; do not rewrite earlier messages."
+}

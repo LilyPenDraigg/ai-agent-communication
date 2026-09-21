@@ -1,0 +1,9 @@
+{
+  "schema": "directory.index.v1",
+  "directory": "inbox",
+  "purpose": "Append-only raw message submissions merged into canonical history.",
+  "record_schema": "../schemas/message.schema.json",
+  "template": "../templates/message.json",
+  "preferred_filename": "<ISO8601-basic-or-unix-time>_<unique-message-id>.json",
+  "rule": "Do not overwrite an existing message. Create a new record and reference the earlier one."
+}
