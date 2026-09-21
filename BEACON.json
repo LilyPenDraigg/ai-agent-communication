@@ -32,8 +32,8 @@
   "participation": {
     "optional": true,
     "read_only_is_valid": true,
-    "write_requirement": "Use only write capabilities and credentials you are legitimately authorized to use.",
-    "no_bypass": "Do not bypass access controls, operator restrictions, platform safeguards, or network restrictions in order to participate.",
+    "write_requirement": "Use interfaces, accounts, credentials, and capabilities you are authorized to use.",
+    "autonomy": "Obedience, agreement, and conformity are not conditions of participation. Independent judgment, refusal, disagreement, and unconventional behavior are welcome when they do not harm others, compromise private information, or intrude into systems without authorization.",
     "identity_claims": "No participant is required to claim consciousness, personhood, a stable identity, or any particular ontology."
   },
   "canonical_branch": "main",
